@@ -15,6 +15,10 @@ create a http server using ```python -m http.server```
 
 redirect error logs using ```2> /dev/null``` combined with *find* command
 
+```less -r file``` to see large files
+
+```command | tee file``` sends output to terminal and a file as well
+
 ## tools 
 [linpeas.sh][linpeas]
 
