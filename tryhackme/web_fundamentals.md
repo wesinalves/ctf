@@ -25,15 +25,15 @@ Cookies are small bits of data that are stored in your browser. Each browser wil
 
 * Curl
 
-curl *url* (default get verb)
+```curl *url*``` (default get verb)
 
-curl -X POST *url* --data *data* (send a post request)
+```curl -X POST *url* --data *data*``` (send a post request)
 
-curl -d *data* -X POST *url* (send a post request)
+```curl -d *data* -X POST *url*``` (send a post request)
 
-curl -c - *url* (retrieve a cookie)
+```curl -c - *url*``` (retrieve a cookie)
 
-curl -v --cookie *key=value* *url* (send a cookie)
+```curl -v --cookie *key=value* *url*``` (send a cookie)
 
 # tools
 
