@@ -8,8 +8,8 @@ We'll cover HTTP requests and responses, web servers, cookies and then put them 
 
 # What was learnt
 
-* finding the server (DNS request)
-* loading content
+* Finding the server (DNS request)
+* Loading content
     * request verbs (GET, POST)
     * common port (80)
     * content of web page (HTML, CSS, Javascript)
@@ -26,9 +26,13 @@ Cookies are small bits of data that are stored in your browser. Each browser wil
 * Curl
 
 curl *url* (default get verb)
+
 curl -X POST *url* --data *data* (send a post request)
+
 curl -d *data* -X POST *url* (send a post request)
+
 curl -c - *url* (retrieve a cookie)
+
 curl -v --cookie *key=value* *url* (send a cookie)
 
 # tools
