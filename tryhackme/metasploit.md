@@ -12,6 +12,7 @@ You need set some variables before to start exploit.
 * `set LHOST`
 then select the exploit using command `use name_exploit`.
 Run the exploit via either command `exploit` or `run -j`
+After, you will be able to access meterpreter that has commnads to exploit the machine
 
 ## what was learnt
 
@@ -44,3 +45,4 @@ icecast
 '?' show help
 getprivs
 upload
+meterpreter
