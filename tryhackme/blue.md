@@ -34,6 +34,9 @@ we don't need to open metasploit for inital sacaning
 
 migrate to process NT AUTHORITY\SYSTEM
 
+search for a file in cmd
+dir secret.doc /s /p
+
 
 ## tools
 
