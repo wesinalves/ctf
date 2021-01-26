@@ -19,6 +19,7 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 
 re-registration attack
 sqllite db
+look at repositories in github to find misconfiguration application and servers
 
 ## tools
 
